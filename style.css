@@ -10,11 +10,11 @@
 
 .main-container{
     width: 100%;
+    height: auto;
     padding: 1rem 4rem;
     margin: 2rem auto;
-    background-color: #fff;
-
 }
+
 .header-container{
     width: 100%;
     height: auto;
@@ -185,7 +185,7 @@ section{
     height: auto;
     width: 100%;
     padding: 4rem;
-    margin: 2rem auto;
+    margin: 2rem auto; 
 } 
 
 .middle-container{
@@ -271,7 +271,7 @@ a{
     font-size: 16px;
     line-height: 24px;
     color: #1c2022;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
 }
 
 .avatar-and-name-container{
@@ -316,6 +316,7 @@ a{
 
 .newsletter-container{
     width: 100%;
+    height: auto;
     padding: 6rem 4rem;
     background-color: #575989;
     display: flex;
@@ -391,6 +392,7 @@ form{
 
 .footer-container{
     width: 100%;
+    height: auto;
     padding: 1rem 4rem;
     background-color: #07043b;
     display: flex;
@@ -410,12 +412,14 @@ form{
 
 .footer-bottom-container{
     width: 100%;
+    height: auto;
     margin: 2rem auto;
     background-color: #07043b;
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    padding-bottom: 4rem;
 }
 
 .left-footer-container{
